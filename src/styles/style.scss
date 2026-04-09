@@ -6,9 +6,9 @@
   box-sizing: border-box;
 }
 
+@import 'blocks/base';
 @import 'utils/variables';
 @import 'blocks/header';
-@import 'blocks/base';
 @import 'blocks/card';
 @import 'blocks/stars';
 @import 'blocks/main';

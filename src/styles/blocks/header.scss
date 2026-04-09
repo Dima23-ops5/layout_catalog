@@ -44,17 +44,18 @@ html {
   text-decoration: none;
   color: #060b35;
   position: relative;
+  transition: color 300ms;
 }
 
 .nav__link:hover {
   color: #00acdc;
 }
 
-.nav__link--active {
+.is-active {
   color: $header-text-hover;
 }
 
-.nav__link--active::after {
+.is-active::after {
   content: '';
   display: block;
   left: 0;
